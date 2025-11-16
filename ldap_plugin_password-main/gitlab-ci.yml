@@ -1,0 +1,11 @@
+stages: [build]
+
+process-build:
+  stage: build
+  tags: [dev]
+  image: php:8-cli
+  script:
+    - if [ -z "$PASSWORD" ]; then echo "PASSWORD var is blank"; exit 1; fi
+    - echo $PASSWORD
+    - echo $SALT
+    - php index.php pass=$PASSWORD salt=$SALT
