@@ -9,6 +9,11 @@ For Mail: Default salt is empty string "".
 
 Run with: php index.php pass=<HASH> salt=<SALT>
 
+```
+php index.php "pass=oHXp4Mxs12qd1Q==&salt="
+the9ClentU
+```
+
 Декрипторы паролей Bitrix
 ---
 https://jhonnybonny.github.io/bitrix-decrypt/  (demo web version)
@@ -19,3 +24,9 @@ https://jhonnybonny.github.io/bitrix-decrypt/  (demo web version)
 Для Mail: Соль по умолчанию пустая строка "".
 
 Запуск: php index.php pass=<ХЭШ> salt=<СОЛЬ>
+
+
+```
+php index.php "pass=oHXp4Mxs12qd1Q==&salt="
+the9ClentU
+```
